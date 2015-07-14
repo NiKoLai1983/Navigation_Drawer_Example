@@ -81,12 +81,12 @@ public class MainActivity2 extends AppCompatActivity
                     R.id.fragmentContainer,
                     PlaceholderFragment.newInstance(1),
                     "navDrwrContentFragment").commit();
-        } else {
+        } /*else {
             getSupportFragmentManager().beginTransaction().replace(
                     R.id.fragmentContainer,
                     getSupportFragmentManager().findFragmentByTag("navDrwrContentFragment"),
                     "navDrwrContentFragment").commit();
-        }
+        }*/
     }
 
     @Override
